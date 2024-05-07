@@ -1,0 +1,29 @@
+@font-face {
+	font-family: Decipher;
+	src: url(../../scr/Fontes/Fonte-Decipher/Decipher_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+	font-family: DecipherSymbols;
+	src: url(../../scr/Fontes/Fonte-Decipher/DecipherSymbols_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: Timegoing;
+    src: url(../../scr/Fontes/Fonte-Timegoing/Timegoing\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Spartical;
+    src: url(../../scr/Fontes/Fonte-Spartical/SparticalGraffiti_PERSONAL_USE_ONLY.otf);
+}
+
+
+.bemvindo{
+    display: flex;
+    justify-content: center;
+    margin-top: -600px;
+    font-family: Spartical;
+    font-size: 70px;
+    color: white;
+}
