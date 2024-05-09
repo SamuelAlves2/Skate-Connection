@@ -30,6 +30,7 @@ min-height:100vh;
 	background: #ffffff4f;
 	box-shadow:0 3px 15px rgba(0,0,0,.15);
 	border-radius: 50px;
+	/* position: fixed; */
 }
 
 .nav ul {
