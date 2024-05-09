@@ -18,11 +18,18 @@
     src: url(../../scr/Fontes/Fonte-Spartical/SparticalGraffiti_PERSONAL_USE_ONLY.otf);
 }
 
+@font-face {
+    font-family: AnotherTag;
+    src: url(../../scr/Fontes/Fonte-AnotherTag/aAnotherTag.ttf);
+}
+
 
 .bemvindo{
     display: flex;
     justify-content: center;
-    margin-top: -550px;
+    margin-top: -500px;
+    margin-left: 350px;
+    margin-bottom: -80px;
     font-family: Spartical;
     font-size: 70px;
     color: white;
@@ -34,4 +41,23 @@
 .textoeimg{
     display: flex;
     justify-content: space-evenly;
+}
+
+.imghome{
+    width: 300px;
+    height: 300px;
+}
+
+.texto{
+    margin-top: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    max-width: 800px;
+}
+
+.tag{
+    margin-left: 225px;
+    font-size: 60px;
+    font-family: AnotherTag;
 }

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: AnotherTag;
+    src: url(../../scr/Fontes/Fonte-AnotherTag/aAnotherTag.ttf);
+}
+
+footer{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 1348px;
+    margin-left: -7px;
+    margin-top: 50px;
+	background: #ffffff4f;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tagFooter{
+    font-family: AnotherTag;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.imgfooter{
+    width: 50px;
+    height: 50px;
+}
+
+.imgfooter :hover{
+    width: 60px;
+    height: 60px;
+    opacity: 10%;
+}
+
+.emailfooter{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
