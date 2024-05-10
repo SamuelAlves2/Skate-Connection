@@ -3,29 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - SkateConnection</title>
+    <title>Login - SkateConnection</title>
     <link rel="shortcut icon" href="../../scr/Imagens/Favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../Cadastro/cadastro.css">
+    <link rel="stylesheet" href="cadastro.css">
     <link rel="stylesheet" href="../NavBar/NavBar.css">
+    <link rel="stylesheet" href="../Footer/Footer.css">
 </head>
 <body>
+    <main>
 
-    <img src="../../scr/Imagens/SkateSignSemFundo.png" class="logo">
-    <h1 class="titulo">Skate Connection</h1>
+        <img src="../../scr/Imagens/SkateSignSemFundo.png" class="logocadastro">
+        
+        <div class="cadastro">
 
-    <div class="body">
-        <nav class="nav">
-            <ul>
-                <li><a href="../Home/Home.html">Home</a>
-                <li><a href="../Conheça-nos/Conheça-nos.html">Conheça-nos</a>
-                <li><a href="../Monte seu skate/monte.html">Monte seu skate</a>
-                <li><a href="../Galeria/galeria.html">Galeria</a>
-                <li><a></a></li>
-                <li><a href="../Login/login.html">Login</a>
-                <li><a href="../Cadastro/cadastro.html">Cadastro</a>
-            </ul>
-        </nav>
-    </div>
-    
+            Usuário <br>
+            <input type="text" id="in_user" placeholder="Insira um usuário"><br><br>
+
+            Email <br>
+            <input type="email" id="in_email" placeholder="Digite seu email"><br><br>
+
+            Número <br>
+            <input type="text" id="in_num" maxlength="11" placeholder="Digite seu número"><br><br>
+
+            Senha <br>
+            <input type="password" id="in_senha" placeholder="Insira uma senha"><br><br>
+
+            Repita a senha <br>
+            <input type="password" id="in_senha" placeholder="Repita sua senha"><br>
+            
+            <a class="noupe">Já possuí conta? <a href="../Login/login.html" class="logarse">Login</a></a>
+            <br><br>
+
+            <button onclick="entrar()">ENTRAR</button>
+        </div>
+        
+    </main>
 </body>
+<footer>
+    <a class="emailfooter">samuel.alves@sptech.school</a>
+    <a href="https://github.com/Samuel-Alves2802"><img src="../../scr/Imagens/githubbranco.png" class="imgfooter"></a>
+    <a href="../Home/Home.html" class="tagFooter">Skate Connection</a>
+</footer>
 </html>

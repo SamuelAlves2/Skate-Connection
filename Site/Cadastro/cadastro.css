@@ -1,0 +1,66 @@
+.logocadastro{
+    margin-top: 20px;
+    width: 80px; 
+    height: 80px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+}
+
+.cadastro{
+    font-family: Decipher;
+    color: white;
+    background-color: #ffffff4f;
+    /* height: 600px; */
+    /* width: 400px; */
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px transparent;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 86px;
+}
+
+.cadastro input{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px;
+    /* border-style: none; */
+}
+
+.cadastro button{
+    color: rgb(122, 122, 122);
+    background-color: #ffffff;
+    height: 25px;
+    width: 125px;
+    font-family: Decipher;
+    border: solid 1px black;
+    border-radius: 10px;
+    /* border-style: none; */
+}
+
+.cadastro :hover button{
+    color: black;
+}
+
+.noupe, .logarse{
+    /* margin-top: -10px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.logarse{
+    text-decoration: underline darkred;
+    color: darkred;
+}
